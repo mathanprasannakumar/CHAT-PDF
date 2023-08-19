@@ -1,17 +1,17 @@
 # CHAT-PDF
 A chat-pdf application for interacting with pdf. User can upload pdf and ask questions related to the  uploaded documents.
 
-<h1>DEMO : <a href="https://matensor.com/chatpdf"> CHAT-PDF</a>
+<h3>DEMO : <a href="https://matensor.com/chatpdf"> CHAT-PDF</a></h3>
 
-<h1>Youtube explanation : <a href = ""> link </a>
+<h3>Youtube explanation : <a href = ""> link </a> </h3>
 
 
-<h1>Implementaion</h1>
+<h3>Implementaion</h3>
 <hr>
 <p> Technologies used : vanilla js (logic) , express(server), nodejs(runtime) , langchain(connect with openai models) , html and css (ui) </p>
 <p> With this implementation , you  can easily build a chatgpt like application for any docs or for an any organization</p>
 
-<h1>Step 1 : Setting up the api keys and environment </h1>
+<h3>Step 1 : Setting up the api keys and environment </h3>
 <ul>
     <li>
        <p>For embedding the text and for the chat model Open AI model is used</p>
@@ -32,11 +32,11 @@ A chat-pdf application for interacting with pdf. User can upload pdf and ask que
        inside the .env files </p>
     </li>
 </ul>
-<h1>Step 2 : Building the UI for file upload and chat box </h1>
+<h3>Step 2 : Building the UI for file upload and chat box </h3>
 <p> </p>
 <p> </p>
 
-<h1>Step 3 : Handling the uploaded pdf file </h1>
+<h3>Step 3 : Handling the uploaded pdf file </h3>
 
 <ul>
     <li>
@@ -53,7 +53,7 @@ A chat-pdf application for interacting with pdf. User can upload pdf and ask que
     </li>
 </ul>
 
-<h1> Step 4 : Handling the prompt </h1>
+<h3> Step 4 : Handling the prompt </h3>
 
 <ul>
     <li>
@@ -76,7 +76,7 @@ A chat-pdf application for interacting with pdf. User can upload pdf and ask que
     </li>
 </ul>
 
-<h1> References </h1>
+<h3> References </h3>
 <ul> 
     <li> 
        <p>  Langchain documentation helped a lot , if you  dont understand the docs,ask the  chatbot in the documentation. As openAi chatgpt dont even know what is langchain.</p>
