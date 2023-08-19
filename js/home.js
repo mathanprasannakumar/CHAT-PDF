@@ -40,7 +40,7 @@ form.addEventListener('submit',async (e)=>{
 
         let xhr = new XMLHttpRequest()
 
-        xhr.open('POST','/chatpdf/pdfupload',true)
+        xhr.open('POST','/pdfupload',true)
 
         xhr.onreadystatechange = ()=>{
             if (xhr.readyState === XMLHttpRequest.DONE) {
@@ -103,7 +103,7 @@ promptform.addEventListener('submit',(e)=>{
     prompt.value="";
     const xhr = new XMLHttpRequest();
 
-    xhr.open('POST','/chatpdf/query',true)
+    xhr.open('POST','/query',true)
     xhr.setRequestHeader("Content-Type", "application/json");
     xhr.onreadystatechange = ()=>{
       if(xhr.readyState === XMLHttpRequest.DONE){

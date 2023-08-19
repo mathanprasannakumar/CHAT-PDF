@@ -59,7 +59,7 @@ async function delete_vec()
 
 
 // home page 
-app.get("/chatpdf",(req,res)=>{    
+app.get("/",(req,res)=>{    
 
     delete_vec()
     res.render("home")
@@ -67,7 +67,7 @@ app.get("/chatpdf",(req,res)=>{
 
 
 // when the user uploaded pdf
-app.post('/chatpdf/pdfupload',(req,res)=>{
+app.post('/pdfupload',(req,res)=>{
 
     if(req.files)
     {
@@ -132,7 +132,7 @@ function preparechain()
 }
 
 // when the user enters prompt
-app.post('/chatpdf/query',async (req,res)=>{
+app.post('/query',async (req,res)=>{
 
     console.log("entered query")
     const {message} = req.body
