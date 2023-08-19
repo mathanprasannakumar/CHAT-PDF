@@ -3,7 +3,7 @@ A chat-pdf application for interacting with pdf. User can upload pdf and ask que
 
 <h3>DEMO : <a href="https://matensor.com/chatpdf"> CHAT-PDF</a></h3>
 
-<h3>Youtube explanation : <a href = ""> link </a> </h3>
+<h3>Video : <a href = ""> link </a> </h3>
 
 
 <h3>Implementaion</h3>
@@ -15,6 +15,8 @@ A chat-pdf application for interacting with pdf. User can upload pdf and ask que
 <ul>
     <li>
        <p>For embedding the text and for the chat model Open AI model is used</p>
+    </li>
+    <li>
        <p> For accessing the open ai model through langchain we need to have open ai api key</p>
     </li>
     <li>  
