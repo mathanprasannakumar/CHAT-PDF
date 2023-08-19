@@ -1,0 +1,21 @@
+
+@mixin device ($width){
+
+
+    @if($width==600px)
+    {
+        @media  (min-width:600px)
+        {
+            @content;
+        }
+
+    }
+    @if($width==960px)
+    {
+        @media (min-width:960px)
+        {
+            @content;
+        }
+    }
+
+}

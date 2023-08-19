@@ -1,0 +1,45 @@
+@use "../mixins/" as u;
+
+
+.filecontainer{
+    display:flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+
+    margin:2rem 1rem 1rem 1rem;
+    // margin-left: 2rem;
+    // margin-right:2rem;
+    border: 3px solid black;
+    border-radius: 3%;
+
+    .fileform{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    #pdffile{
+        margin:2rem 2rem 0rem 2rem;
+        padding-left: 3rem;
+    }
+    input{
+        font-size:2rem;
+        margin:1rem 0rem 1rem 0rem;
+    }
+}
+
+
+
+
+@include u.device(600px)
+{   
+    #pdffile{
+        font-size: 3rem;
+    }
+    #pdfsubmit{
+        margin-top: 3rem;
+        font-size: 3rem;
+    }
+}
+

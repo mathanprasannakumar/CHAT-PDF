@@ -1,0 +1,26 @@
+{
+  "name": "chatpdfref",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@pinecone-database/pinecone": "^0.1.6",
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "gpt-3-encoder": "^1.1.4",
+    "langchain": "^0.0.129",
+    "nodeman": "^1.1.2",
+    "pdf-parse": "^1.1.1"
+  }
+}

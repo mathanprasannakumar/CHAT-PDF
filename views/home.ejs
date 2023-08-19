@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ChatPDF</title>
+  <link rel="stylesheet" href="./dist/styles.css">
+  <script defer src="./js/home.js"></script>
+</head>
+<body>
+  <h1>CHAT-PDF</h1>
+  <hr>
+  <p class="descrip">Upload your pdf and ask questions</p>
+  <!-- css animation loading start-->
+  <div id="loaderwrapper" class="wrapper" style="display:none">
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="shadow"></div>
+    <div class="shadow"></div>
+    <div class="shadow"></div>
+    <span>Loading</span>
+</div>
+ <!-- css animation loading end -->
+
+ <div class="contentwrapper">
+   <!-- file container for uploading the file start -->
+   <div id ="filecontainer" class="filecontainer">
+     <form id ="fileform" class="fileform">
+       <input type="file" id="pdffile" name="filename" accept="application/pdf">
+       <input id = "pdfsubmit" type="submit">
+       </form>
+     </div>
+     <!-- file container for uploading the file end-->
+     
+     <!-- chat container block  start-->
+     <div id = "chatcontainer" class="chatcontainer" style="display:none">
+       <!-- message block start-->
+       <div  id = "messagebox" class="messagebox">
+         <div id = "message" class="message">
+           <img src="./assets/bot.jpeg">
+           <span>
+             Hi,How can i help you ? 
+           </span>
+         </div>
+       </div>
+       <!-- message block end -->
+
+       <!-- css animation loading start -->
+       <div id="loader" class="loader" style="display:none"></div>
+     <!-- css animation loading ends -->
+
+         <!-- input text block start -->
+         <form id = "promptform">
+           <input class='textbox' type="text" id="prompt" name="message" placeholder="Enter your message" required>
+           <input class = 'submitbutton' type="submit" id="promptsubmit" value="Send">  
+         </form>
+         <!-- input text block end -->
+       </div>
+     <!-- chat container block end -->
+ </div>
+</body>
+</html
