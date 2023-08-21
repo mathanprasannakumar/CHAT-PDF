@@ -3,7 +3,7 @@ A chat-pdf application for interacting with pdf. User can upload pdf and ask que
 
 <h3>DEMO : <a href="https://matensor.com/chatpdf"> CHAT-PDF</a></h3>
 
-<h3>Video : <a href = ""> link </a> </h3>
+<h3>Video : <a href = "https://www.youtube.com/playlist?list=PLSHdGKaEfx8C3k_3KI_SCdMN7LpQ2iXSL"> link </a> </h3>
 
 
 <h3>Implementaion</h3>
